@@ -1,6 +1,20 @@
-# guess-the-cards
+# Guess the Cards
 
-This template should help get you started developing with Vue 3 in Vite.
+"Guess the Cards" is an interactive card game built with Vue 3, where players test their knowledge of poker hands. In this fast-paced game, you have a limited amount of time to guess the correct poker hand from the cards dealt. With each correct guess, you earn additional time, but be careful—incorrect guesses will cost you!
+
+## Game Features
+
+- **Timed Rounds**: Start with 100 seconds on the clock. Time is your lifeline!
+- **Poker Hand Recognition**: Challenge your ability to identify different poker hands.
+- **Score Tracking**: Keep track of your correct answers and improve your high score.
+- **Randomized Hands**: Each round presents a new set of cards and possible hand rankings.
+
+## Tech Stack
+
+- **Vue 3**: A progressive JavaScript framework for building user interfaces.
+- **TypeScript**: A typed superset of JavaScript that compiles to plain JavaScript.
+- **TailwindCSS**: A utility-first CSS framework for rapidly building custom designs.
+- **Vite**: A modern frontend build tool that provides a fast and lean development experience.
 
 ## Recommended IDE Setup
 
@@ -32,14 +46,14 @@ npm run dev
 npm run build
 ```
 
-### Run Unit Tests with [Vitest](https://vitest.dev/)
-
-```sh
-npm run test:unit
-```
-
 ### Lint with [ESLint](https://eslint.org/)
 
 ```sh
 npm run lint
+```
+
+### Format code with Prettier
+
+```sh
+npm run format
 ```
